@@ -1,5 +1,42 @@
 body {
-    background-color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
+    /* background-image: url(../images/) ; */
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    color:#000;
+    
+}
+
+/* #container {
+    width: 400px;
+    margin: 0 auto;
+}  */
+
+.top {
+    width: 400px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../images/bg-pattern-card.svg);
+    
+}
+
+img { 
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.middle {
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+}
+
+.bottom {
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    border-top: 1px solid grey;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
